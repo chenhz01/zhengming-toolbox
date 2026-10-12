@@ -169,6 +169,19 @@ Every tool was reverse-designed against a quality rubric (novelty vs. existing a
 
 R14 totals: 50 tools, 3,228 self-test cases, CI on every repo, predicted scores 50/50 matched (mean 96.8 under the v4.0 rubric).
 
+## Family indexes (R14)
+
+Prefer browsing by problem area? Six family indexes group the R14 tools by the pain they solve:
+
+| Index | Focus |
+|---|---|
+| [zhengming-agent-governance](https://github.com/chenhz01/zhengming-agent-governance) | Agent & LLM governance — memory policies, loop detection, permission audits, trace compression |
+| [zhengming-code-engineering](https://github.com/chenhz01/zhengming-code-engineering) | Code gates & linters — CLI conventions, dependency budgets, PR sizing, upgrade risk |
+| [zhengming-security-compliance](https://github.com/chenhz01/zhengming-security-compliance) | Defensive security & compliance — token hygiene, leak scans, CORS/cron audits, lock-in |
+| [zhengming-data-integrity](https://github.com/chenhz01/zhengming-data-integrity) | Data integrity — ETL resume, idempotent consumption, pagination, key guards |
+| [zhengming-ops-performance](https://github.com/chenhz01/zhengming-ops-performance) | Ops & performance — latency budgets, health specs, quota forecasts, backup verification |
+| [zhengming-content-docs](https://github.com/chenhz01/zhengming-content-docs) | Content & docs quality — RFC2119 linting, onboarding checks, alt-text checks |
+
 ## Earlier releases
 
 52 additional utility tools were released on 2026-10-10/11 (Rounds R10-R11): defensive security scanners, MCP cleanroom acceptance harnesses, and developer workflow tools — see the [repositories list](https://github.com/chenhz01?tab=repositories).
